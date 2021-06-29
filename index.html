@@ -6,19 +6,45 @@
         <title>Google</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <nav>
+        <div id="top-nav">
+            <li><a href="https://mail.google.com/mail/?authuser=0&ogbl"></a>Gmail</li>
+            <li><a href="https://www.google.it/imghp?hl=en&authuser=0&ogbl">Images</a></li> 
+            <span class="material-icons-outlined">
+                apps
+                </span>
+            <p><span class="material-icons-outlined">
+                account_circle
+                </span></p>
+        </div> 
 
-        </nav>
+        <div id="main">
+            <a id="logo" href="https://www.google.com/"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo"></a>
+            <div id="searchbar">
+                <form action="search-form">
+                    <input type="text"  id="search-text" name="" >
+                    <input type="submit" id="search-btn" class="btn" value="Google Search">
+                    <input type="submit" id="lucky-btn" class="btn" value="I'm Feeling Lucky">
+            </form>
+            </div>   
 
-        <main id="main">
-            <a href="www.google.com"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo"></a>
-
-        </main>
-
-
+        <div id="footer">
+            <div id="nav-l">
+                <a href="">About</a>
+                <a href="">Advertising</a>
+                <a href="">Buisness</a>
+                <a href="">How Search Works</a>
+            </div>
+            <div id="nav-r">
+                <a href="">Privacy</a>
+                <a href="">Terms</a>
+                <a href="">Settings</a>
+            </div>
+            
+        </div>
         <script src="" async defer></script>
     </body>
 </html>
