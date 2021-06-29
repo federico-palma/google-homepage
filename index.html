@@ -11,33 +11,38 @@
     </head>
     <body>
         <div id="top-nav">
-            <a href="https://mail.google.com/mail/?authuser=0&ogbl">Gmail</a>
-            <a href="https://www.google.it/imghp?hl=en&authuser=0&ogbl">Images</a>
-            <span class="material-icons">apps</span>
-            <span class="material-icons">account_circle</span>
+            <a class="top-nav-link" href="https://mail.google.com/mail/?authuser=0&ogbl">Gmail</a>
+            <a class="top-nav-link" href="https://www.google.it/imghp?hl=en&authuser=0&ogbl">Images</a>
+            <span class="material-icons top-nav-icon">apps</span>
+            <span class="material-icons top-nav-icon">account_circle</span>
         </div> 
 
         <div id="main">
-            <a id="logo" href="https://www.google.com/"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo"></a>
+            <div id="div-logo">
+                <a id="logo" href="https://www.google.com/"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo"></a>
+            </div
             <div id="searchbar">
                 <form action="search-form">
-                    <input type="text"  id="search-text" name="" >
-                    <input type="submit" id="search-btn" class="btn" value="Google Search">
-                    <input type="submit" id="lucky-btn" class="btn" value="I'm Feeling Lucky">
-            </form>
+                    <input type="text"  id="search-text" name="" ><br>
+                    <div id="btns">
+                        <input type="submit" id="search-btn" class="btn" value="Google Search">
+                        <input type="submit" id="lucky-btn" class="btn" value="I'm Feeling Lucky">
+                    </div>
+                </form>
             </div>   
+        </div>
 
         <div id="footer">
             <div id="nav-l">
-                <a href="">About</a>
-                <a href="">Advertising</a>
-                <a href="">Buisness</a>
-                <a href="">How Search Works</a>
+                <a class="nav-l-items" href="">About</a>
+                <a class="nav-l-items" href="">Advertising</a>
+                <a class="nav-l-items" href="">Buisness</a>
+                <a class="nav-l-items" href="">How Search Works</a>
             </div>
             <div id="nav-r">
-                <a href="">Privacy</a>
-                <a href="">Terms</a>
-                <a href="">Settings</a>
+                <a class="nav-r-items" href="">Privacy</a>
+                <a class="nav-r-items" href="">Terms</a>
+                <a class="nav-r-items" href="">Settings</a>
             </div>
             
         </div>
