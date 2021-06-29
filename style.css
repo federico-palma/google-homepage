@@ -1,0 +1,12 @@
+*{
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+
+#top-nav{
+    width: auto;
+    border: 3px black solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
