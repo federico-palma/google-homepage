@@ -25,9 +25,18 @@
 }
 
 .top-nav-icon{
-    margin: 15px;
+    margin: 10px;
     font-size: 25px;
     align-self: center;
+    color: rgb(95, 99, 104);
+    
+    padding: 5px;
+}
+
+.top-nav-icon:hover{
+    border-radius: 50%;
+    background-color: rgb(223, 223, 223);
+    
 }
 
 #main{
@@ -66,6 +75,10 @@ img{
     height: 45px;
 }
 
+#searchbar:hover{
+    box-shadow: 0px 1px 3px 1px rgb(218, 220, 224);
+}
+
 #mag-glass{
     color: #9aa0a6;
 }
@@ -99,6 +112,10 @@ img{
     font-weight: 400;
     padding: 0px 16px;
     margin: 5px;
+}
+
+.btn:hover{
+    box-shadow: 0px 1px 2px 1px rgb(218, 220, 224);
 }
 
 #footer{
